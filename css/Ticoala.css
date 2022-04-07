@@ -1,0 +1,30 @@
+body{
+  background-color: aliceblue;
+}
+
+#infoForm{
+  margin-top: 10%;
+  margin-left: auto; 
+  margin-right: auto; 
+  padding: 0.5em;
+  width:250px;
+  text-align: center;
+  background-color: #e6e6e6;
+  border: solid;
+  border-color: #cccccc;
+  border-radius: 0.5em;
+  line-height: 230%;
+}
+
+#btn-center{
+  display: flex;
+  justify-content: center;
+  position:fixed; 
+  width:100%; 
+  height:70px; 
+  background-color:#e6e6e6; 
+  padding:5px; 
+  bottom:0px; 
+  border-top: solid;
+  border-color: #cccccc;
+}
