@@ -1,5 +1,5 @@
 body{
-  background-color: aliceblue;
+  background-color: aliceblue !important;
   height:100%;
   padding:0;
   margin:0;
@@ -10,7 +10,7 @@ body{
   margin-left: auto; 
   margin-right: auto; 
   padding: 0.5em;
-  width:250px;
+  width:270px;
   text-align: center;
   background-color: #e6e6e6;
   border: solid;
@@ -30,4 +30,9 @@ body{
   bottom:0px; 
   border-top: solid;
   border-color: #cccccc;
+}
+
+.input-info{
+  width: 80%;
+  margin : 5%;
 }

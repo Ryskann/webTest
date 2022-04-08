@@ -22,7 +22,7 @@ $(document).ready(function(){
     //info template
     let getnfoReponse;
     function createTemplateGetInfo(question){
-        $("#trial").append("<form id='infoForm'><label>" + question + "<br></label><input type='text'><br><input type='submit' value='OK'></form>");
+        $("#trial").append("<form id='infoForm'><label>" + question + "<br></label><input class='input-info' type='text'><br><input class='input-info' type='submit' value='OK'></form>");
         createFSButton();
         $("#infoForm").on('submit', function(){
             getInfoReponse = $("input").val();
@@ -48,6 +48,7 @@ $(document).ready(function(){
     }
 
     function  createTplA(question){
+        $("#trial").append("<div class='row'></div>");
         $("#trial").append("<img src=" + question.img1 +" style='height:200px'>");
     }
 
