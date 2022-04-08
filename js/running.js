@@ -35,7 +35,7 @@ $(document).ready(function(){
 
     //button full screen 
     function createFSButton(){
-        $("#trial").append("<div id='btn-center'><button id='fsButton'>Switch Fullscreen</button></div>");
+        $("#trial").append("<div id='btn-center'><button id='fsButton'>Switch Fullscreen For Android</button>Swipe up on taskbar for iPad</div>");
         $("#fsButton").on("click", function(){
             switchFullscreen();
         });
@@ -48,8 +48,7 @@ $(document).ready(function(){
     }
 
     function  createTplA(question){
-        $("#trial").append("<div class='row'></div>");
-        $("#trial").append("<img src=" + question.img1 +" style='height:200px'>");
+        $("#trial").append("<div class='row-fluid vertical-center-div'><div class='col-sm-3 mx-auto text-center'><img src=" + question.img1 +"></div><div class='col-sm-3 mx-auto text-center'><img src=" + question.img2 +"></div><div class='col-sm-3 mx-auto text-center'><img src=" + question.img3 +"></div><div class='col-sm-3 mx-auto text-center'><img src=" + question.img4 +"></div></div></div>");
     }
 
     //trials

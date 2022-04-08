@@ -1,4 +1,4 @@
-body{
+html, body, #trial{
   background-color: aliceblue !important;
   height:100%;
   padding:0;
@@ -35,4 +35,16 @@ body{
 .input-info{
   width: 80%;
   margin : 5%;
+}
+
+.vertical-center-div{
+  height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+  width:100%;
+  height:100%;
 }
