@@ -44,11 +44,11 @@ $(document).ready(function(){
     //question template
     function createTrialTemplate(question){
         if (question.structure = 'a')
-            createTplA(question);
+            createTplA(question, 1000);
     }
 
-    function  createTplA(question){
-        $("#trial").append("<div class='row-fluid vertical-center-div'><div class='col-sm-3 mx-auto text-center'><img src=" + question.img1 +"></div><div class='col-sm-3 mx-auto text-center'><img src=" + question.img2 +"></div><div class='col-sm-3 mx-auto text-center'><img src=" + question.img3 +"></div><div class='col-sm-3 mx-auto text-center'><img src=" + question.img4 +"></div></div></div>");
+    function  createTplA(question, timeBeforeBlink){
+        $("#trial").append("<div class='row-fluid vertical-center-div black-back'><div class='col-sm-3 mx-auto text-center'><img class='yellow-border' src=" + question.img1 +"></div><div class='col-sm-3 mx-auto text-center'><img class='yellow-border' src=" + question.img2 +"></div><div class='col-sm-3 mx-auto text-center'><img class='yellow-border' src=" + question.img3 +"></div><div class='col-sm-3 mx-auto text-center'><img class='yellow-border' src=" + question.img4 +"></div></div></div>");
     }
 
     //trials

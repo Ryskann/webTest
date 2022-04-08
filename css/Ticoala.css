@@ -48,3 +48,21 @@ img {
   width:100%;
   height:100%;
 }
+
+.black-back{
+  background-color: black;
+  height: 100%;
+  width: 100%;
+}
+
+.yellow-border{
+  border: solid;
+  border-radius: 10px;
+  border-color: yellow;
+}
+
+.purple-border{
+  border: solid;
+  border-radius: 10px;
+  border-color: purple;
+}
